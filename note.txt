@@ -1,6 +1,6 @@
 # vagrant ssh --> CONNECTION to vagrant
 #exit --> exit to local machine.
-cd/vagrant --> synchornization local files
+cd /vagrant --> synchornization local files
 touch test.txt --> to create new file in vagrant.
 git add .  --> add the files
 git commit -am "[message]" --> for commit
