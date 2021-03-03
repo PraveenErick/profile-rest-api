@@ -3,5 +3,12 @@
 cd/vagrant --> synchornization local files
 touch test.txt --> to create new file in vagrant.
 git add .  --> add the files
-git commit --am "[message]" --> for commit
+git commit -am "[message]" --> for commit
 git push origin - to push in to git hub.
+python -m venv ~/env --> virutual Environments
+source ~/env/bin/activate --> activate the env Environments
+deactivate --> deactivate
+django-admin.py startproject profile_project .
+python manage.py startapp profile_api
+python manage.py runserver 0.0.0.0:8000
+python manage.py makemigrations
